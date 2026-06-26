@@ -24,11 +24,11 @@ int binarySearch(vector<int> arr, int target)
             return mid;
         }
     }
-    return -1;
+    return -1; 
 }
 int main()
 {
     vector<int> v = {10, 20, 30, 40, 50, 60, 70};
-    int target = 1000;
+    int target = 70;
     cout << binarySearch(v, target);
 }
